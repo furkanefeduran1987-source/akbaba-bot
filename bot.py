@@ -5,7 +5,7 @@ from aiogram.filters import Command
 
 # Senin görsellerinden aldığım güncel bilgiler
 TRLINK_API_KEY = "510ed1f00db22c48ddbf17cd2b7d3fa293f24d9c"
-BOT_TOKEN = "8569206431:AAGSdcL1mDAHpkd-8ANSfTr-D6xVlhXKfBQ"
+BOT_TOKEN = "8569206431:AAGp49qmrVpjmEBdIr_1osDlHjnHvtNUxQ8"
 
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher()
