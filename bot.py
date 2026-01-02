@@ -20,7 +20,7 @@ async def link_handler(message: types.Message):
     uzun_link = message.text
     api_url = f"https://tr.link/api?api={TRLINK_API_KEY}&url={uzun_link}"
     try:
-        response = requests.get(api_url, timeout=15)
+        response = requests.get(api_url, timeout=30)
         data = response.json()
         if data.get("status") == "success":
             await message.answer(f"✅ **Linkin Hazır:**\n{data['shortenedUrl']}")
